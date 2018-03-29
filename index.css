@@ -1,14 +1,18 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container > div > img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 300px;
+    height: 200px;
 }
 
-.container > div {
+/* .container > .normal {
     flex: 1 1 150px;
 }
+
+.container > .big {
+    flex: 1 1 250px;
+} */
